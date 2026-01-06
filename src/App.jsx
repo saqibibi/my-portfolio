@@ -44,11 +44,13 @@ function App() {
 
   return (
     <div className="min-h-screen p-6" style={{ backgroundColor: '#0a0a0f' }}>
-      <div className="flex gap-6 max-w-7xl mx-auto">
+<div className="flex flex-col lg:flex-row gap-6 max-w-7xl mx-auto p-6">
+
 
         {/* SIDEBAR */}
-        <aside className="w-80 rounded-2xl p-8 h-fit sticky top-6"
+        <aside className="w-full lg:w-80 rounded-2xl p-8 h-fit lg:sticky lg:top-6"
           style={{ backgroundColor: '#121218', borderColor: '#2a2a35', border: '1px solid' }}>
+
           {/* Profile Photo */}
           <div className="text-center mb-8">
             <div className="relative w-32 h-32 mx-auto mb-4">
